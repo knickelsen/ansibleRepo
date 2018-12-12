@@ -1,0 +1,37 @@
+---
+- name: helsinki-server
+  hcloud_server:
+    name: nw-hs-1
+    image: centos-7
+    server_type: cx11
+    datacenter: hel1-dc2
+    ssh_keys:
+    - root@TPKNICKELS2
+
+- name: falkenstein-server
+  hcloud_server:
+    name:
+    - de-fs-1
+    - de-fs-2
+    image: centos-7
+    server_type: cx11
+    location: fsn1
+    ssh_keys:
+    - root@TPKNICKELS2
+
+- name: nuremberg-server
+  hcloud_server:
+    name:
+    - de-nb-1
+    - de-nb-2
+    image: centos-7
+    server_type: cx11
+    location: nbg1
+    ssh_keys:
+    - root@TPKNICKELS2 
+      
+- pause:
+    seconds: 60
+
+- name: refresh inventory
+  meta: refresh_inventory

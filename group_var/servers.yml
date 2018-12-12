@@ -1,0 +1,8 @@
+hetzner_instance_type: 'cx31'
+hetzner_token: 'TelgjGCjHmdBGLejG8735Cl1DCbHBxLv0TYCsfaJjTd1nY8RswDmLLuDiQtBDILX'
+hetzner_ssh_keys: ['root@TPKNICKELS2']
+hetzner_cluster_count: 6
+hetzner_worker_count: 2
+hetzner_instance_os: 'centos-7'
+hetzner_datacenter: 'fsn1-dc14'
+upassword: "SvaRockz!"

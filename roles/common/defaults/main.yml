@@ -1,0 +1,20 @@
+---
+basic_packages:
+  - epel-release
+  - screen
+  - vim
+  - openssl
+  - net-tools
+  - nmap
+  - wget
+  - curl
+  - unzip
+  - rsync
+  - mlocate
+  - telnet
+
+additional_packages:
+  - glances
+  - htop
+  - jq
+  - git 
